@@ -23,9 +23,7 @@ class Item extends Component {
 									</Carousel.Item>
 								))}
 							</Carousel>
-						) : (
-							<Card.Img variant="top" src={this.props.thumbnail.href} />
-						)
+						) : <Card.Img variant="top" src={this.props.thumbnail.href} />
 					}
 				</div>
 
